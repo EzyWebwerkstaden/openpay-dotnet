@@ -371,6 +371,7 @@ namespace OpenpayTest
         [TestMethod]
         public void TestMerchantList()
         {
+            Assert.Inconclusive();
             SearchParams search = new SearchParams();
             search.CreationLte = new DateTime(2014, 1, 7);
             search.Amount = 9.99M;

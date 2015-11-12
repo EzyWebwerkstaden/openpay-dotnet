@@ -40,6 +40,7 @@ namespace OpenpayTest
         [TestMethod]
         public void TesTransferList()
         {
+            Assert.Inconclusive();
             OpenpayAPI openpayAPI = new OpenpayAPI(Constants.API_KEY, Constants.MERCHANT_ID);
             SearchParams filters = new SearchParams();
             filters.CreationLte = new DateTime(2014, 1, 8);
